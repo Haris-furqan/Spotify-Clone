@@ -1,0 +1,33 @@
+.flex
+{
+    display: flex;
+}
+
+.border
+{
+    border: 2px solid grey;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.justify-center
+{
+    justify-content: center;
+}
+
+.align-center
+{
+    align-items: center;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    background: #000;
+}
+

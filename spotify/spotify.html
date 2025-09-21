@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header flex">
+        <div class="logo"><img src="spotify-icon.svg" alt=""></div>
+        <div class="home flex justify-center align-center"><img src="home.svg" alt=""></div>
+        <div class="midarea flex">
+            <div class="input flex justify-center align-center"><img class="search" src="search.svg" alt=""><input
+                    placeholder="What do you want to listen?" type="text"></div>
+            <div class="buttons3 flex  ">
+                <button>Premium</button>
+                <button>Support</button>
+                <button>Download</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="center flex">
+
+        <div class="left ">
+            <div class="library ">
+                <div class="libheading flex space-between">
+                    <span>Your Library</span>
+                    <span>+</span>
+                </div>
+                <div class="libcontent ">
+                    <div class="cardcontainer ">
+                        <div class="createplaylists  cards">
+                            <h3>Create your playlist</h2>
+                                <p>its easy we'll help you</p>
+                                <button>Create Playlist</button>
+                        </div>
+
+                        <div class="podcasts  cards">
+                            <h3>Let's find a podcast to follow</h3>
+                            <p>We'll keep you updated on new episodes</p>
+                            <button>Browse Podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="legal ">
+                <span>legal</span>
+                <span>Safety and privacy</span>
+                <span>Privacy Policy</span>
+                <span>Cookiew</span>
+                <span>About Ads</span>
+                <span>Accessibility</span>
+            </div>
+            <button class="en ">English</button>
+
+        </div>
+
+
+
+        <div class="right ">
+            <h2 class="trending">Trending Songs</h2>
+
+            <div class="songscontainer ">
+                <div class="songs flex">
+                    <div class="song ">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e021a3bf4e253476962f3fd1169"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <h3 class="songname">MF Gabruuu</h3>
+                        <p class="artists">Karan Aujla,Ikky</p>
+                        <div class="playbtn"><img class="playbtn" src="rounded-play-button (1).svg" alt=""
+                                class="playbtn">
+                        </div>
+                    </div>
+
+                    <div class="song ">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e022ad04aaf72b32152ac92f0f8"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <h3 class="songname">Radha</h3>
+                        <p class="artists">Hasan Raheem,Umair</p>
+                        <div class="playbtn"><img class="playbtn" src="rounded-play-button (1).svg" alt=""
+                                class="playbtn">
+                        </div>
+                    </div>
+
+                    <div class="playables ">
+                        <ul>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+                <div class="playbar">
+                    <div class="playbtns flex">
+                    <button class="btn prev">&#9664;</button>
+                    <button class="btn play">&#9654;</button>
+                    <button class="btn next">&#9654;&#9654;</button>
+                    </div>
+                     <div class="seekbar">
+                        <div class="circle"></div>
+                     </div>
+                </div>
+                     
+        </div>
+
+
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
